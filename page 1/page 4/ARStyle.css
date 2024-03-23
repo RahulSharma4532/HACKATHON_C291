@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+}
+
+.regbox {
+    background-color: aqua;
+    padding: 40px;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: rgb(61, 59, 59);
+    color: rgb(49, 47, 47);
+}
+
+.des {
+    text-align: center;
+    font-size: small;
+    color: rgb(49, 47, 47);
+    text-shadow: 0.2px 0.2px 0.5px rgb(17, 17, 17);
+    padding-top: 5px;
+}
+
+.details {
+    padding-top: 20%;
+    line-height: 25px;
+}
+
+label {
+    font-size: 15px;
+    color: rgb(49, 47, 47);
+}
+
+.email {
+    padding-right: 82%;
+}
+
+.pass {
+    padding-right: 73%;
+}
+
+.con-pass{
+    padding-right: 55%;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+button {
+    width: 70%;
+    font-size: medium;
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px rgb(17, 17, 17);
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    border-radius: 24px;
+    padding: 10px;
+    background-color: rgb(113, 113, 211);
+    border: none;
+    transition: background border 1s ease-in-out;
+}
+
+.but {
+    padding-top: 20px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    transform-origin: 2px;
+    cursor: [pointer];
+    background-color: rgb(56, 56, 139);
+    border: 3px rgb(49, 47, 47);
+    box-shadow: 0 0 5px rgba(113, 113, 211, 1);
+}
+
+input {
+    padding: 8px;
+    border: .5px grey;
+    border-radius: 7px;
+}
+
+.sin {
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.sinb {
+    transition: background border 1s ease-in-out;
+
+}
+.sinb:hover {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 0 2px rgba(113, 113, 211, 1);
+}
+
